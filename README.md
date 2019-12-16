@@ -98,8 +98,8 @@ Menu onde se encontra toda parte de criação, edição e exclusão e visualiza�
 Menu para o envio de e-mail para os clientes, corpo de email apenas para texto, com um auxilio de uma option com os correio eletrônico dos respectivos clientes, para um ou vario. Utilizei as configurações do PHPMailer e WampServer juntamente com minha própria conta de email(GMAIL) para o disparo de e-mail, pois seria mais facil o desenrolar para uma finalidade de teste ao invez de ter todas a configuração do mail function e SMTP.
 
 ## Configurações
-Area para uploado do xml, de atualização dos dados automático, no desafio falou sobre uma planilha excel onde era feito o controle, vendo que os dados, do xml batoam com o do excel ficou bem tranquilo atualizar os dados de uma so vez, sendo tratado documento com unique, e validação se o cliente esta ativo ou não.
-Por fim para popular o banco automaticamente pegando dados do excel, não consegui fazer direto com o excel em si, mas alterando a extensão de xlsx, ou xls, para xml consegue se cadastrar toda a planilha no banco atraves do menu configurações. Aparentemente um gato, mas esse feito seria feito so uma vez pois as próximas atualizações seriam com o xml em si que se receber da loja virtual.
+Area para uploado do xml, de atualização dos dados automático, no desafio falou sobre uma planilha excel onde era feito o controle, vendo que os dados do xml batem com o do excel ficou bem tranquilo atualizar os dados de uma so vez, sendo tratado documento com unique, e validação se o cliente esta ativo ou não.
+Por fim para popular o banco automaticamente pegando dados do excel, não consegui fazer direto com o excel em si pois me deparei com varios erros que não consegui solucinar dentro do prazo, mas alterando a extensão de xlsx, ou xls, para xml consegue se cadastrar toda a planilha no banco atraves do menu configurações. Aparentemente um gato, mas esse feito seria feito so uma vez pois as próximas atualizações seriam com o xml em si que se receber da loja virtual.
 
 ##Conclusão 
 

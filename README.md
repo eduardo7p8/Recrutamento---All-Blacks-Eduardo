@@ -49,3 +49,40 @@ configuration relevant for your application.
 The app skeleton uses a subset of [Foundation](http://foundation.zurb.com/) (v5) CSS
 framework by default. You can, however, replace it with any other library or
 custom styles.
+
+
+
+## SCRIPT BANCO MYSql
+
+CREATE TABLE `all-backs`.`clientes` (
+  `idcliente` INT NOT NULL,
+  `nome` VARCHAR(180) NULL,
+  `documento` VARCHAR(100) NULL,
+  `cep` VARCHAR(20) NULL,
+  `endereco` VARCHAR(180) NULL,
+  `bairro` VARCHAR(50) NULL,
+  `cidade` VARCHAR(100) NULL,
+  `uf` VARCHAR(10) NULL,
+  `telefone` VARCHAR(25) NULL,
+  `email` VARCHAR(180) NULL,
+  `created` TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+  `modified` DATETIME NULL,
+  `st_ativo` CHAR(1) NULL,
+  `st_registro_ativo` ENUM('S', 'N') NULL,
+  PRIMARY KEY (`idcliente`));
+
+
+
+
+CREATE TABLE `all-backs`.`arquivos` (
+  `idarquivo` INT NOT NULL,
+  `no_doc` VARCHAR(255) NULL,
+  `no_documento_original` VARCHAR(255) NULL,
+  `ext_documento` VARCHAR(8) NULL,
+  `path_documento` LONGTEXT NULL,
+  `created` TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+  `modified` DATETIME NULL,
+  PRIMARY KEY (`idarquivo`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
+

@@ -99,5 +99,9 @@ Menu para o envio de e-mail para os clientes, corpo de email apenas para texto, 
 
 ## Configurações
 Area para uploado do xml, de atualização dos dados automático, no desafio falou sobre uma planilha excel onde era feito o controle, vendo que os dados, do xml batoam com o do excel ficou bem tranquilo atualizar os dados de uma so vez, sendo tratado documento com unique, e validação se o cliente esta ativo ou não.
-Por fim para popular o banco automaticamente pegando dados do excel, não consegui fazer direto com o excel em si, mas alterando a extensão de xlsx, ou xls, para xml consegue se cadastrar toda a planilha no banco atraves do menu configurações. Aparentemente um gato, mas esse feito seria feito so uma vez pois as próximas atualizações seriam com o xml em si que se receber da loja virtual
+Por fim para popular o banco automaticamente pegando dados do excel, não consegui fazer direto com o excel em si, mas alterando a extensão de xlsx, ou xls, para xml consegue se cadastrar toda a planilha no banco atraves do menu configurações. Aparentemente um gato, mas esse feito seria feito so uma vez pois as próximas atualizações seriam com o xml em si que se receber da loja virtual.
+
+##Conclusão 
+
+    Bem essa e a minha ideia de automatização para o problema da All Blacks, um sistema simples que pode reduzir o tempo de atualização de dados em varias horas, o sistemas pode ter muito mais funcionalidas, e ser melhorado de acordo com as necessidades porem o que tem atende bem, o resto e concertos técnicos de acordo com a necessidade do cliente, pois o tempo vale ouro para qualquer empresa ou pessoa!
 
